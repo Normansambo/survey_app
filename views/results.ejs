@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Results</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Survey Results</h1>
+        <p>Total number of surveys: <%= total_surveys %></p>
+        <p>Average Age: <%= avg_age.toFixed(2) %> years</p>
+        <p>Oldest person who participated in survey: <%= oldest_age.toFixed(2) %> years</p>
+        <p>Youngest person who participated in survey: <%= youngest_age.toFixed(2) %> years</p>
+        <p>Percentage of people who like Pizza: <%= pizza_percentage.toFixed(2) %> %</p>
